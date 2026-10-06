@@ -1,0 +1,83 @@
+{
+  "profile": {
+    "name": "Joel Darla",
+    "role": "Data Engineer",
+    "tagline": "Building reliable data pipelines, modern lakehouse platforms, and analytics-ready datasets.",
+    "summary": "Data Engineer focused on Microsoft Fabric, Azure Data Factory, Azure Databricks, SQL, PySpark, and Power BI. I enjoy turning raw data into well-governed, reliable data products that help teams make faster decisions.",
+    "location": "India",
+    "availability": "Open to Data Engineering opportunities",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "email": "",
+    "resume_file": ""
+  },
+  "stats": [
+    {"value": "3", "label": "Featured Projects"},
+    {"value": "8+", "label": "Core Technologies"},
+    {"value": "E2E", "label": "Pipeline Focus"},
+    {"value": "Cloud", "label": "Data Platforms"}
+  ],
+  "skills": {
+    "Data Engineering": ["Microsoft Fabric", "Azure Data Factory", "Azure Databricks", "ETL / ELT", "Data Pipelines", "Lakehouse"],
+    "Programming & Processing": ["SQL", "Python", "PySpark", "Spark", "Data Transformation"],
+    "Analytics": ["Power BI", "Data Modelling", "DAX", "Data Quality"],
+    "Cloud & Tools": ["Azure", "OneLake", "Delta Lake", "Git", "GitHub"]
+  },
+  "experience": [
+    {
+      "role": "Data Engineer",
+      "company": "Ingenius Technologies and Consulting",
+      "period": "June 2025 — Present",
+      "location": "India · Hybrid",
+      "highlights": [
+        "Build and support data workflows for ingestion, transformation, validation, and analytics.",
+        "Work with SQL, modern data platforms, pipeline orchestration, and reporting solutions.",
+        "Translate data requirements into reliable datasets and repeatable engineering workflows."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "number": "01",
+      "title": "Retail Analytics Lakehouse",
+      "subtitle": "Microsoft Fabric · End-to-End Data Engineering",
+      "description": "An end-to-end retail analytics platform that ingests raw sales data, applies Bronze–Silver–Gold transformations, and prepares trusted business datasets for Power BI reporting.",
+      "problem": "Retail data arrives from multiple sources and requires repeatable cleaning, modelling, and reporting.",
+      "solution": "Orchestrated ingestion into a Fabric Lakehouse, transformed datasets with PySpark/SQL, and created curated Gold-layer tables.",
+      "impact": ["Automated a repeatable ingestion and transformation flow", "Added data-quality checks for nulls and duplicates", "Produced analytics-ready Gold datasets for reporting"],
+      "technologies": ["Microsoft Fabric", "OneLake", "Data Factory", "PySpark", "SQL", "Power BI"],
+      "github": "https://github.com/",
+      "demo": ""
+    },
+    {
+      "number": "02",
+      "title": "E-Commerce Data Pipeline",
+      "subtitle": "ADF + Databricks · Batch Data Platform",
+      "description": "A modular Azure pipeline for ingesting e-commerce data, transforming it in Databricks, and publishing Delta tables for downstream analytics.",
+      "problem": "Daily source files need reliable ingestion, schema validation, transformation, and incremental processing.",
+      "solution": "Used ADF for orchestration and Databricks/PySpark for scalable transformations with Delta Lake storage.",
+      "impact": ["Designed parameter-driven pipeline components", "Implemented incremental-load logic", "Separated raw, cleansed, and curated data layers"],
+      "technologies": ["Azure Data Factory", "Azure Databricks", "PySpark", "Delta Lake", "SQL"],
+      "github": "https://github.com/",
+      "demo": ""
+    },
+    {
+      "number": "03",
+      "title": "Operations KPI Data Mart",
+      "subtitle": "SQL + Power BI · Analytics Engineering",
+      "description": "A compact analytics-engineering project that converts operational data into a dimensional model for KPI tracking and executive reporting.",
+      "problem": "Operational metrics are spread across raw tables and are difficult for business teams to consume consistently.",
+      "solution": "Created reusable SQL transformations, fact/dimension tables, KPI logic, and a Power BI-ready semantic structure.",
+      "impact": ["Centralized KPI definitions", "Improved reporting consistency", "Simplified downstream dashboard development"],
+      "technologies": ["SQL", "Data Modelling", "Power BI", "DAX", "ETL"],
+      "github": "https://github.com/",
+      "demo": ""
+    }
+  ],
+  "certifications": [
+    {"name": "Add your Microsoft / Azure certification", "issuer": "Replace this example in data/portfolio.json", "year": "2026"}
+  ],
+  "education": [
+    {"degree": "B.Sc. Computer Science", "school": "Acharya Nagarjuna University", "period": "2019 — 2022"}
+  ]
+}

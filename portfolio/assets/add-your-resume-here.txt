@@ -1,0 +1,1 @@
+Place your resume PDF here and set profile.resume_file in data/portfolio.json.
